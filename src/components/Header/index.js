@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../../assets/css/header.css';
 import logo from '../../assets/images/M9E decals.png';
 import twitter from '../../assets/images/twitter_icon.png';
@@ -13,15 +12,11 @@ export default function Header() {
                 <div className="logo_image">
                     <img src={logo} alt="logo_image" />
                 </div>
-                <div class="social_icons">
-                    <Router>
-                        <Link to="/"><img src={twitter} alt="twitter" /></Link>
-                        <Link to="/"><img src={discord} alt="discord" /></Link>
-                        <Link to="/"><img src={social_icon} alt="social_icon" /></Link>
-                        <Link to="/"> 
-                            <button type="button">CONNECT WALLET</button>
-                        </Link>
-                    </Router>   
+                <div className="social_icons">
+                    <a href="/"><img src={twitter} alt="twitter" /></a>
+                    <a href="/"><img src={discord} alt="discord" /></a>
+                    <a href="/"><img src={social_icon} alt="social_icon" /></a>
+                    <button type="button">CONNECT WALLET</button>
                 </div>
             </div>
             <div className="mint_button">
