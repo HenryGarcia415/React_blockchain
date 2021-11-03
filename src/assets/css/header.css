@@ -1,0 +1,57 @@
+.header_section {
+    background-color:#550067;
+    height:100vh;
+}
+
+.header {
+    display:flex;
+}
+
+.logo_image{
+    padding:20px;
+    width:80%;
+}
+
+.logo_image img{
+    width:250px;
+}
+
+.social_icons {
+    width:20%;
+    padding:20px;
+}
+
+.social_icons a {
+    padding-right:10px;
+}
+
+.social_icons a img{
+    width:36px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.social_icons button {
+    color:white;
+    background-color: #550067;
+    padding:5px 15px;
+    font-family: 'KozGoPro-Regular';
+}
+
+.mint_button {
+    text-align: center;
+    padding-top: 50vh;
+}
+
+.mint_button p {
+    background-image: url(../images/BUTTON.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position-x: center;
+    font-family: 'FONT';
+    font-size:24px;
+    color:white;
+    margin:auto;
+    padding:5px 10px;
+    padding-bottom: 20px;
+}
