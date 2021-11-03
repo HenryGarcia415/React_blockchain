@@ -1,13 +1,44 @@
+@font-face {
+  font-family: 'KozGoPro-Regular';
+  src: local('KozGoPro-Regular'), url(./assets/fonts/KozGoPro-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Medium';
+  src: local('KozGoPro-Medium'), url(./assets/fonts/KozGoPro-Medium.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Light';
+  src: local('KozGoPro-Light'), url(./assets/fonts/KozGoPro-Light.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Heavy';
+  src: local('KozGoPro-Heavy'), url(./assets/fonts/KozGoPro-Heavy.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-ExtraLight';
+  src: local('KozGoPro-ExtraLight'), url(./assets/fonts/KozGoPro-ExtraLight.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'KozGoPro-Bold';
+  src: local('KozGoPro-Bold'), url(./assets/fonts/KozGoPro-Bold.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FONT';
+  src: local('FONT'), url(./assets/fonts/FONT.TTF) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'KozGoPro-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
