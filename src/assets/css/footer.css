@@ -1,0 +1,29 @@
+.footer_section {
+    background-color: black;
+    color:white;
+}
+
+.footer_column {
+    display:flex;
+    text-align: center;
+}
+
+.footer_column div h1 img {
+    width:27px;
+    padding-right:20px;
+}
+.footer_column div p {
+    text-align: left;
+}
+
+.first_column {
+    width:50%;
+}
+
+.second_column {
+    width:50%;
+}
+
+.bottom {
+    display:flex;
+}

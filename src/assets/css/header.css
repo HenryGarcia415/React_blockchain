@@ -1,6 +1,6 @@
 .header_section {
     background-color:#550067;
-    height:100vh;
+    height:100%;
 }
 
 .header {
@@ -40,7 +40,8 @@
 
 .mint_button {
     text-align: center;
-    padding-top: 50vh;
+    padding-top: 30%;
+    padding-bottom:15%;
 }
 
 .mint_button p {
