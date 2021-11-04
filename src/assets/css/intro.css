@@ -1,0 +1,14 @@
+.intro_section {
+    padding:100px;
+    text-align:center;
+    background-color:black;
+    color:white;
+}
+
+.intro_image img {
+    width:600px;
+}
+
+.intro_image p {
+    padding:20px;
+}
