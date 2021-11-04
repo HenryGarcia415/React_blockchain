@@ -11,10 +11,10 @@ export default function Footer() {
             <div className="footer_column">
                 <div className="first_column">
                     <h1><img src={Arrow} alt="team" />THE TEAM</h1><br/>
-                    <p><span>@DAYTONER:</span> ARTIST</p><br/>
-                    <p><span>@ARNAUD_SPAM</span>PROJECT</p><br/>
-                    <p><span>@?:</span>COMMUNITY</p><br/>
-                    <p><span>@?:</span>DEV TEAM</p><br/>
+                    <p><span>@DAYTONER: </span> ARTIST</p><br/>
+                    <p><span>@ARNAUD_SPAM </span>PROJECT</p><br/>
+                    <p><span>@?: </span>COMMUNITY</p><br/>
+                    <p><span>@?: </span>DEV TEAM</p><br/>
                 </div>
                 <div className="second_column">
                     <h1><img src={Arrow} alt="join" />JOIN M9E CREW</h1><br/>

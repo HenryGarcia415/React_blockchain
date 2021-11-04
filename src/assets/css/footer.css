@@ -1,11 +1,13 @@
 .footer_section {
     background-color: black;
     color:white;
+    font-family: 'KozGoPro-Bold';
 }
 
 .footer_column {
     display:flex;
-    text-align: center;
+    margin-left: 25%;
+    padding-top:50px;
 }
 
 .footer_column div h1 img {
@@ -14,6 +16,9 @@
 }
 .footer_column div p {
     text-align: left;
+    margin:0;
+    font-size: 12px;
+    line-height: 1;
 }
 
 .first_column {
@@ -24,6 +29,26 @@
     width:50%;
 }
 
+.second_column p img{
+    width:40px;
+}
+
 .bottom {
     display:flex;
+    padding-top: 10%;
+    padding-bottom:5%;
+}
+
+.copyright {
+    margin-left: 5%;
+    width:80%;
+}
+
+.footer_menu {
+    float:right;
+}
+
+.footer_menu a {
+    color:white;
+    text-decoration: none;
 }
