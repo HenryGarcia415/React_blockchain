@@ -1,0 +1,11 @@
+.banner3 {
+    background: #550067;
+    text-align: right;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+
+.banner3 img {
+    width:400px;
+    padding:5%;
+}
