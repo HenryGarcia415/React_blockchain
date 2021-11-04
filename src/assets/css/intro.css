@@ -6,9 +6,31 @@
 }
 
 .intro_image img {
-    width:600px;
+    width:350px;
 }
 
-.intro_image p {
-    padding:20px;
+.texts {
+    text-align:center;
 }
+.intro_image p {
+    width:350px;
+    text-align: justify;
+    margin: 0 auto;
+    
+}
+
+.intro_image h1 {
+    letter-spacing: 8px;
+    margin-top:0;
+    line-height: 0;
+}
+
+.collections {
+    letter-spacing:11px!important;
+    margin-bottom: 0;
+}
+
+.intro_image h2 {
+    letter-spacing: 8px;
+}
+
