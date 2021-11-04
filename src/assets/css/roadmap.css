@@ -101,3 +101,16 @@
     margin-left:7%;
     text-align: center;
 }
+
+.future h1 img {
+    width:31px;
+}
+
+.future p {
+    text-align: center;
+    font-size:20px;
+}
+
+.future p span {
+    font-weight: 400;
+}

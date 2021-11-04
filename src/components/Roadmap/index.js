@@ -3,7 +3,7 @@ import '../../assets/css/roadmap.css';
 import arrow from '../../assets/images/arrow.png';
 import line from '../../assets/images/line.png';
 import foundation from '../../assets/images/foundation LOGO.png';
-
+ 
 export default function Roadmap() {
     return(
         <div className="roadmap">
@@ -40,7 +40,11 @@ export default function Roadmap() {
                         <h3>COLLECTION 2 & 3 REVEALED </h3>
                     </div>
                 </div>
-                
+            </div>
+            <div className="future">
+                <h1><img src={arrow} alt="arrow" />
+                WHAT ABOUT 2022</h1>
+                <p>and after <span>(till 2030)</span></p>
             </div>
         </div>
     )
