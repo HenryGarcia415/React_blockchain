@@ -1,0 +1,9 @@
+.gallery_carousel {
+    width:50%;
+    margin:auto;
+    padding-top: 10px;
+}
+
+.axis-vertical {
+    display: none;
+}

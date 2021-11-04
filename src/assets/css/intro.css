@@ -1,8 +1,12 @@
 .intro_section {
-    padding:100px;
+    padding:100px 0;
     text-align:center;
     background-color:black;
     color:white;
+}
+
+.intro_image {
+    padding-bottom:50px;
 }
 
 .intro_image img {
