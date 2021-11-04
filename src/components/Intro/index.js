@@ -1,4 +1,6 @@
 import React from 'react';
+import Gallery from '../Gallery';
+
 import '../../assets/css/intro.css';
 import Intro_image from '../../assets/images/M9E SILHOUETTE.png';
 import Retangular from '../../assets/images/9x999.png';
@@ -19,6 +21,7 @@ export default function Intro() {
                     In that sense it gives us the chance to explore M9E designs that are not physically manufacturable and opens up possibilities to sell digital and maybe even physical one offsinspired by those new M9E creations.</p>
                 </div>
             </div>
+            <Gallery />
         </div>
     )
 }
